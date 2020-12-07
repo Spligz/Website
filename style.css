@@ -1,0 +1,82 @@
+:root {
+    font-family: 'Nerko One', cursive;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("woman.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.website-header {
+    background-image: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 3vw;
+}
+
+.website-body {
+    color: white;
+    margin-left: 10px;
+    font-size: 2vw;
+}
+
+.sex-button {
+    background-color: rgb(196, 83, 83);
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sex-button:hover {
+    cursor: not-allowed;
+    background-color: rgb(145, 145, 145);
+}
+
+.comdon {
+    background-color: rgb(100, 201, 125);
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.comdon:hover {
+    cursor: pointer;
+    background-color: rgb(69, 148, 88);
+}
+
+.yt-vid {
+    display: block;
+    margin-top: 40px;
+}
+
+.help-bar {
+    color: white;
+    background-color: rgba(200, 200, 200, 0.1);
+    position: absolute;
+    width: 100%;
+    margin-left: -8px;
+    transform: translateY(-100%);
+    top:100vh;
+    display: none;
+    font-size: 1.5vw;
+}
+
+.help-bar-text {
+    margin-left: 20px;
+}
+
+#naughty-link {
+    text-decoration: underline;
+    color: cornflowerblue;
+}
+
+#naughty-link:hover {
+    cursor: pointer;
+}
